@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.about-area {
+    color: #fff;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins', sans-serif;
+    
+}
+.about-left img {
+    border:10px solid hotpink;
+    border-radius: 5px 80px 5px 80px;
+}
+.skill-area {
+    border-right: 2px solid white;
+}
+@media only screen and (max-width:991px) {
+    .skill-area {
+        border-right: none;
+    }
+    
+}
+

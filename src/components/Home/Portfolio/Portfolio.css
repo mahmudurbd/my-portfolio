@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.portfolio-area {
+    color: #3D4458;
+    font-family: 'Poppins', sans-serif;
+}
+.portfolio-area .col {
+    position:relative;
+    bottom: 0px;
+    transition: 0.5s ease-in-out;
+
+}
+.portfolio-area .col:hover {
+    position:relative;
+    bottom: 20px;
+}
+.portfolio-area h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.portfolio-area p,
+.portfolio-area h5 {
+    font-family: 'Caladea', serif;
+}
+.portfolio-area h5 {
+    font-size: 25px;
+}

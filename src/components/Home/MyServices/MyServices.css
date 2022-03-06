@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.services-area {
+    color: #3D4458;
+    font-family: 'Poppins', sans-serif;
+}
+.services-area h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.services-area .col {
+    transition: transform 1s ease-in-out;
+}
+.services-area .col:hover{
+    transform:scale(1.1);
+}
